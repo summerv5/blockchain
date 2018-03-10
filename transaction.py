@@ -3,15 +3,21 @@
 
 class Transaction():
     def __init__(self):
-        self.prev_hash = ""
         self.sender = ""
         self.recipient = ""
-        self.value
-        self.time_stamp
+        self.value = 0.0
+        self.inputs = []
+        self.outputs = []
+        self.signatures = []
 
     def new_transaction(self):
         pass
 
     def verify_transaction(self):
         pass
+
+    def verify_sig(self):
+        pass
+
+    
 
